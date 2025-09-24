@@ -1,0 +1,6 @@
+st=input("Enter:")
+print(st.find("  "))
+st=st.split()
+st=" ".join(st)
+print(st)
+print(type(st))
