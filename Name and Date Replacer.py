@@ -8,6 +8,6 @@ You are selected!
 name=input("Enter Your Name: ").title()
 Date=str(datetime.date.today())
 
-letter=letter.replace('<|name|>',name)
-letter=letter.replace('<|Date|>',Date)
+letter=letter.replace('<|name|>',name).replace('<|Date|>',Date)
+
 print(letter)
