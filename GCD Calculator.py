@@ -1,6 +1,6 @@
 n,m=map(int,input("Enter 2 no (eg, 40 10)\n:").split())
 l=[]
-for x in range(2,max([n,m])):
+for x in range(2,min([n,m])+1):
     if n%x==0 and m%x==0:
         l.append(x)
 
